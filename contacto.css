@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+    align-items: center;
+    background-color: brown;
+    font-size: 20px;
+    background-attachment: fixed;
+}
+
+.nav {
+    display: flex;
+    margin: auto;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.nav > li > a {
+    display: block;
+    padding: 31px 70px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav > li:hover {
+    background-color: crimson;
+}
+
+.logo { 
+    width: 120px;
+    height: 120px;
+    margin-left: 20px; 
+}
+
+form {
+    display: grid;
+    place-items: center;
+    margin: 60px 0px;
+}
+
+.contacto {
+    margin: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.locales {
+    margin-top: 20px;
+}
+
+.arjona {
+    margin-top: 20px;
+}
+
+.tel {
+    color: brown;
+}
+
+.escribenos {
+    margin-bottom: 20px;        
+}
+
+.mensaje, .nombre, .asunto, .e-mail {
+    margin-bottom: 20px;
+}
+
+
+
